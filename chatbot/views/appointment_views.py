@@ -1,8 +1,8 @@
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .models import Appointment, Customer
-from .serializers import AppointmentSerializer
+from chatbot.models import Appointment, Customer
+from chatbot.serializers import AppointmentSerializer
 
 # Book an appointment
 @api_view(['POST'])

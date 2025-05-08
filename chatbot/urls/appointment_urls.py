@@ -1,8 +1,8 @@
 from django.urls import path
-from . import views
+from chatbot.views import appointment_views as views
 
 urlpatterns = [
     path('appointments/', views.book_appointment),
     path('appointments/<int:appointment_id>/cancel/', views.cancel_appointment),
-    path('appointments/', views.list_appointments),
+    path('appointments/', views.list_appointments,),
 ]
