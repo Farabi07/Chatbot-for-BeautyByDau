@@ -127,3 +127,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+SHOPIFY_API_KEY = 'your_shopify_api_key'
+SHOPIFY_PASSWORD = 'your_shopify_password'
+INSTAGRAM_ACCESS_TOKEN = 'your_instagram_access_token'
+PAGE_ID = 'your_instagram_page_id'
